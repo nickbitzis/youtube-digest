@@ -1,0 +1,45 @@
+# YouTube Digest settings. Edit here, then reinstall (see README) so the
+# scheduled copy picks up the change.
+
+# Daily run time (24h, Mac local time). If the Mac is asleep, it runs on wake.
+run_at = "07:00"
+
+# On the very first run, only videos newer than this are summarized;
+# everything older is marked as already seen.
+first_run_lookback_hours = 36
+
+model = "claude-opus-5-5"
+effort = "medium"
+
+# Who the digest is for. Claude uses this to decide what's "must watch".
+audience = """
+A developer who builds software with AI coding tools and wants to stay current
+on tech, AI, software engineering, and strategy without watching much YouTube.
+Values signal over hype: big launches, shifts that change how to build, and
+novel analysis. Drama, reaction content, and sponsor-heavy filler rank low.
+"""
+
+[[channels]]
+name = "The PrimeTime"
+handle = "ThePrimeTimeagen"
+id = "UCUyeluBRhGPCW4rPe_UvBZQ"
+
+[[channels]]
+name = "Theo - t3.gg"
+handle = "t3dotgg"
+id = "UCbRP3c757lWg9M-U7TyEkXA"
+
+[[channels]]
+name = "Fireship"
+handle = "Fireship"
+id = "UCsBjURrPoezykLs9EqgamOA"
+
+[[channels]]
+name = "William Spaniel (Game Theory 101)"
+handle = "Gametheory101"
+id = "UCJDIGW0ywWw9Kh9_vtwqxXA"
+
+[[channels]]
+name = "CaspianReport"
+handle = "CaspianReport"
+id = "UCwnKziETDbHJtx78nIkfYug"
